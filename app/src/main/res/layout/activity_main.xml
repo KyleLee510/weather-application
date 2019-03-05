@@ -10,12 +10,13 @@
     tools:context="mg.studio.weatherappdesign.MainActivity">
 
     <TextView
+        android:id="@+id/Today"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Sunday"
+        android:text="Sun"
         android:textAllCaps="true"
         android:textColor="#10000000"
         android:textSize="36sp"
@@ -97,7 +98,7 @@
 
                 <TextView
                     android:id="@+id/tv_date"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="03/03/2018"
                     android:textColor="@android:color/white" />
@@ -118,7 +119,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right"
-                    android:text="28"
+                    android:text="20"
                     android:textColor="@android:color/white"
                     android:textSize="100sp"
                     android:textStyle="bold" />
@@ -171,17 +172,27 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/sec_wea"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/rainy_small" />
 
             <TextView
+                android:id="@+id/sec_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="mon"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
+            <TextView
+                android:id="@+id/Sec_temp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="21°C"
+                android:textAllCaps="true"
+                android:textColor="#909090"/>
         </LinearLayout>
 
         <LinearLayout
@@ -192,17 +203,27 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/Third_wea"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/partly_sunny_small" />
 
             <TextView
+                android:id="@+id/Third_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="tue"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
+            <TextView
+                android:id="@+id/Third_temp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="22°C"
+                android:textAllCaps="true"
+                android:textColor="#909090"/>
         </LinearLayout>
 
         <LinearLayout
@@ -213,17 +234,27 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/Fourth_wea"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/windy_small" />
 
             <TextView
+                android:id="@+id/Fourth_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="thu"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
+            <TextView
+                android:id="@+id/Fourth_temp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="23°C"
+                android:textAllCaps="true"
+                android:textColor="#909090"/>
         </LinearLayout>
 
         <LinearLayout
@@ -234,17 +265,27 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/Fifth_wea"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/sunny_small" />
 
             <TextView
+                android:id="@+id/Fifth_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="fri"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
+            <TextView
+                android:id="@+id/Fifth_temp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="24°C"
+                android:textAllCaps="true"
+                android:textColor="#909090"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
